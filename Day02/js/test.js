@@ -30,3 +30,8 @@ var a=100;
 var b;
 (a===100.00)? b="true":b="false";
 document.write(b);*/
+
+// Alert Box
+/*var greeting="Ya Allah, save us from Covid-19";
+alert(greeting);*/
+
