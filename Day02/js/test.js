@@ -35,3 +35,10 @@ document.write(b);*/
 /*var greeting="Ya Allah, save us from Covid-19";
 alert(greeting);*/
 
+//Confirm Box
+/*var answer=confirm("Do you love Allah?");
+if(answer==true)
+alert("Your answer is :"+answer);
+else
+alert("Your answer is :"+answer);
+*/
