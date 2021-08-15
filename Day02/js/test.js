@@ -42,3 +42,8 @@ alert("Your answer is :"+answer);
 else
 alert("Your answer is :"+answer);
 */
+
+//Prompt Box--> It is used for taking input from user
+/*var fname=prompt("What's your name?");
+alert("My name is :"+ fname);
+*/
