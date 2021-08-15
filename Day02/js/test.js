@@ -49,7 +49,17 @@ alert("My name is :"+ fname);
 */
 
 //Function
-function hello2(){
+/*function hello2(){
     document.write(" AR RAHIM");
 }
-hello2();
+hello2();*/
+
+//Function with return value
+function fullname(fname,lname)
+{
+    var n=fname +" "+lname;
+    return n;
+    //Return Must
+}
+var fn=fullname("Fazla","Rabbi");
+document.write(fn);
