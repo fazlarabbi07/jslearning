@@ -47,3 +47,9 @@ alert("Your answer is :"+answer);
 /*var fname=prompt("What's your name?");
 alert("My name is :"+ fname);
 */
+
+//Function
+function hello2(){
+    document.write(" AR RAHIM");
+}
+hello2();
