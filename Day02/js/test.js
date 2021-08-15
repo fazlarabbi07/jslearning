@@ -55,11 +55,29 @@ alert("My name is :"+ fname);
 hello2();*/
 
 //Function with return value
-function fullname(fname,lname)
+/*function fullname(fname,lname)
 {
     var n=fname +" "+lname;
     return n;
     //Return Must
 }
 var fn=fullname("Fazla","Rabbi");
-document.write(fn);
+document.write(fn); */
+
+//Function with return value more complex
+/*
+ function sum(physics,math,English)
+ {
+    const total=physics+math+English;
+    return total;
+ }
+ function percentcal(t,ns)
+ {
+     var p=t/ns;
+     return p;
+ }
+
+var cgpa= percentcal( result=sum(100,50,20),3);
+document.write(result + "<br>");
+document.write(cgpa);
+*/
