@@ -24,3 +24,9 @@ var day;
         document.write("No date is selected");
         break;
 }*/
+//Ternary Operator are added into example
+/*
+var a=100;
+var b;
+(a===100.00)? b="true":b="false";
+document.write(b);*/
