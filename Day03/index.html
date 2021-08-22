@@ -8,20 +8,32 @@
     <script>
        /* function hello(){
             document.write("Hello everyone");
-        }*/function fun(){
+        }function fun(){
             // Array Declaration [One way]
         var arr=["Fazla","Rabbi",10,'2021'];
         document.write(arr);
 
-        }
+        }*/
+        function hello(){
+         var arr=new Array();
+         for(var i=0;i<10;i++)
+         {
+           arr[i]= prompt("Enter number in array "+i++);
+         }
+         
+        document.write(arr);
+      }
+        
        
       // fun();
+     
+        
         
     </script>
 </head>
 <body>
     <br>
-  <button onclick="fun()">Click to See array</button>
+  <button onclick="hello()">Click to See array</button>
    
 </body>
 </html>
