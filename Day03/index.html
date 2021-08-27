@@ -77,16 +77,27 @@
     var c=a.concat(b);
     document.write(c+"<br><br>");
     var d=c.join("#");
-    document.write(d+"<br><br>");*/
+    document.write(d+"<br><br>");
 
   // Slice and Splice Method in JS
   //Slice(Start. End)
   //If the mentionn the last index as 3, thats mean slice will take the value upto 3 but not 3 index value
   var a=["Rabbi","Shakil","Taz","Hemel"];
   var b=a.slice(0,3);
-  document.write(b);
+  document.write(b);*/
 
-  
+  // Splice methods is used to insert value anywhere[index position] in an array.
+    // splice (index,howmany number to delete, "new value")
+    var a=["Rabbi","Shakil","Taz","Hemel"];
+    a.splice(1,3,"Mother****");
+    //here 1 is the new position of new value
+    // and 3 is the "Shakl, Taz, Hemel"-  those value will be deleted;
+    document.write(a);
+    
+
+
+
+
 
     </script>
 </head>
