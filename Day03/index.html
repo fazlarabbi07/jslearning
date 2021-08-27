@@ -92,7 +92,7 @@
     a.splice(1,3,"Mother****");
     //here 1 is the new position of new value
     // and 3 is the "Shakl, Taz, Hemel"-  those value will be deleted;
-    document.write(a);*/
+    document.write(a);
     
   //isArray() Method
       // Check that any value array or not
@@ -102,7 +102,17 @@
      
       var b=25;
       var check=Array.isArray(b);
-      document.write(check);
+      document.write(check);*/
+  
+  // IndexOf and lastIndexOf methods
+  //  indexOf("Search item", Start index)
+      var a=["Rabbi","Shakil","Taz","Hemel"];
+      var search=a.indexOf("Hemel",2);
+      var s=a[search];
+      document.write(s+"<br>");
+      // It just show the index of particular array value
+      // If the searcing word is missing or not present,then it return -1
+      document.write(search);
 
 
     </script>
