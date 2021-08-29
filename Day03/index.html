@@ -158,12 +158,22 @@
 */
 
       //find() & findIndex() methods
-      // Find() 
+      // Find() method
       //Find methods find the search items, if it find then it stop searching
       // this is similar to some method
-      var ages=[20,21,22,23,24,25];
+      /*var ages=[20,21,22,23,24,25];
       document.write(ages+ "<br>");
       var searchname=ages.find(findingage)
+      function findingage(age){
+        return age>=25;
+      }
+      document.write(searchname);*/
+
+      //findIndex() method
+      //It just find the value and return the index of that particular value (Search value) index
+      var ages=[20,21,22,23,24,25];
+      document.write(ages+ "<br>");
+      var searchname=ages.findIndex(findingage)
       function findingage(age){
         return age>=25;
       }
