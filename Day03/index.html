@@ -184,7 +184,7 @@
 
       //Filter method in Array()
       //It is used for any conditions and when the condition is true, then it return an array for that satisfied statement
-      
+      /*
       function filterprocess(age)
       {
         return age>=23;
@@ -193,6 +193,18 @@
       var ages=[20,21,22,23,24,25];
       var filterarray=ages.filter(filterprocess)
       document.write(filterarray);
+      */
+
+      //toString , valueOf and fill methods
+
+      var ages=[20,21,22,23,24,25];
+      var tostringexample=ages.toString();// Converting array to string
+      document.write(ages+ "<br>");
+      document.write(tostringexample+ "<br>");
+      var result=Array.isArray(tostringexample);// Jsut checking about string or array
+      document.write(result);
+
+
        
     </script>
 </head>
