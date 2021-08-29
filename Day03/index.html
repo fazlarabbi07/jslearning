@@ -195,14 +195,33 @@
       document.write(filterarray);
       */
 
-      //toString , valueOf and fill methods
-
+      //toString ,fill methods
+      /*
       var ages=[20,21,22,23,24,25];
       var tostringexample=ages.toString();// Converting array to string
       document.write(ages+ "<br>");
       document.write(tostringexample+ "<br>");
       var result=Array.isArray(tostringexample);// Jsut checking about string or array
-      document.write(result);
+      document.write(result); */
+
+      //fill method
+      // fill method is used to fill an array with a static value
+     /* var ages=[20,21,22,23,24,25];
+      document.write(ages.fill("rabbi"));*/
+
+
+      // foreach Loop
+      function myfunction(value)
+      {
+          document.write(value+"<br>");
+      }
+      var ages=[20,21,22,23,24,25];
+       var result= ages.forEach(myfunction(ages));// Function is passed
+      
+      
+      
+     
+
 
 
        
