@@ -156,7 +156,18 @@
     var result=ages.every(checkadult); //passing function (checkadult) into some method  
     document.write(result);
 */
-    
+
+      //find() & findIndex() methods
+      // Find() 
+      //Find methods find the search items, if it find then it stop searching
+      // this is similar to some method
+      var ages=[20,21,22,23,24,25];
+      document.write(ages+ "<br>");
+      var searchname=ages.find(findingage)
+      function findingage(age){
+        return age>=25;
+      }
+      document.write(searchname);
 
     </script>
 </head>
