@@ -41,7 +41,7 @@
       for (var i=0;i<a.length;i++)
       {
           document.write(a[i].fname+" "+a[i].Age+"<br>");
-      }*/ 
+      } 
 
 
       //For In Loop
@@ -59,9 +59,23 @@
       //this method is looka like to for each loop
       for(var key in a)
       {
-          document.write(a[key]+"<br>")
-      }
+          document.write(a[key]+"<br>") // It have to declare as array format
 
+         
+      }
+*/
+
+    // Map Method
+    //Map method is used to do mathmatical calculation of any
+    //array without touching the main array. Here arr is our main array
+    //arr2 is our mathmatical array, where we can perform different calculation
+    var arr=[1,2,3,4,5];
+    var arr2=arr.map(multest)
+    function multest(x)
+    {
+        return x*10;
+    }
+    document.write(arr2);
     </script>
 </body>
 </html>
