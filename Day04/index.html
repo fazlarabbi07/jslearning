@@ -75,7 +75,19 @@
     {
         return x*10;
     }
-    document.write(arr2);
+    document.write(arr2+"<br>");
+    // Another way of Map Method
+    var arr3=[
+        {fname: "Fazla", age:25, lname:"Rabbi"},
+        {fname: "Shakil", age:20, lname:"Sarder"},
+        {fname: "Jawad", age:15, lname:"Hossain"},
+    ];
+     var arr4=arr3.map(naming)
+    function naming(a)
+    {
+        return a.fname +" "+ a.lname;
+    }
+    document.write(arr4);
     </script>
 </body>
 </html>
