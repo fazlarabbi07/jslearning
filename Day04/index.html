@@ -28,7 +28,7 @@
       a.lname="Khan";
       a.age=18;
       document.write(a.age);
-      console.log(a);*/
+      console.log(a);
 
       // Array Of Object
       var a=[
@@ -41,6 +41,25 @@
       for (var i=0;i<a.length;i++)
       {
           document.write(a[i].fname+" "+a[i].Age+"<br>");
+      }*/ 
+
+
+      //For In Loop
+      var a={
+          fname: "Fazla",
+          lname: "Rabbi",
+          age: 25,
+          email: "seo@jadroo.com"
+      }
+      document.write(a.fname);
+      document.write(a.lname);
+      document.write(a.age);
+      document.write(a.email);
+      //new method (for loop)
+      //this method is looka like to for each loop
+      for(var key in a)
+      {
+          document.write(a[key]+"<br>")
       }
 
     </script>
