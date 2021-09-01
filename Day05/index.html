@@ -30,12 +30,20 @@
         //endsWith()
         //Ends with find word or charecter from Last string Only. It return Boolean value 
         var strtwith=str.endsWith("!");
-        document.write(strtwith); 
+        document.write(strtwith+"<br>"); 
         // Search Functions
         //It return the index of any particular search string.
         //If not found, then it return -1;
-        var src=str.search("alh");
-        document.write(src);
+        var src=str.search("Ya");
+        document.write(src+"<br>");
+        //match functions
+        //Here "is" is our search key string
+        //(/g/) refer Global & It return an Array for search Items
+        var str2="Jawad is just is a nice_is guy!";
+        var str3=str2.match(/is/g);
+        document.write(str3+"<br>");
+
+
 
     </script>
 </body>
