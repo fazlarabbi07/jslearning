@@ -58,10 +58,17 @@
         var number=Number(numberstring);
         document.write(number+100+"<br>");
 
-        //parseInt()
+        //parseInt() and parseFloat are same type
         var num="10.15";
         var parseinteger= parseInt(num);
         document.write(parseinteger);
+
+        //isFinite() & isInterger() methods
+        //It check finite & integer value
+        var check01=isFinite(num);
+        document.write(check01+"<br>");
+
+
 
 
 
